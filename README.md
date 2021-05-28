@@ -1,5 +1,9 @@
 # auth-api
 
+[Pull-Request](https://github.com/yasmeenokh/auth-api/pull/2)
+[Actions](https://github.com/yasmeenokh/auth-api/actions)
+[Repo-Link](https://github.com/yasmeenokh/auth-api/actions)
+
 ## Install
 Clone the repository from GitHub
 Run the command npm i dotenv express jest supertest mongoose morgan @code-fellows/supergoose, base-64, bcrypt, jsonwebtoken supertest to install dependencies
@@ -21,8 +25,10 @@ Visit http://localhost:PORT at the PORT number you've assigned in your .env
 * https://yasmeen-auth-api.herokuapp.com/singin
 * https://yasmeen-auth-api.herokuapp.com/signup
 * https://yasmeen-auth-api.herokuapp.com/api/v1/food
+* https://yasmeen-auth-api.herokuapp.com/api/v1/clothes
 * https://yasmeen-auth-api.herokuapp.com/api/v2/clothes
+* https://yasmeen-auth-api.herokuapp.com/api/v2/food
 
 
 ## UML Diagram 
-<!-- ![uml](./images/lab07uml.png) -->
+![uml](./images/auth-api.png)
