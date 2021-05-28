@@ -23,7 +23,7 @@ router.param('model', (request, response, next)=>{
     if (fs.existsSync(fileName)){
       const model = require(fileName);
       models.set(modelName, new Collection(model));
-      request.model = model.get(modelName);
+      request.model = models.get(modelName);
       next();
     } else {
       next('INVALID MODEL');
@@ -92,6 +92,7 @@ async function handleDelete (request, response){
     if(error) response.status(403).json({error : error.message});
   }
 }
+
 
 module.exports = router;
 
